@@ -6,7 +6,7 @@
 
 import sys, os
 
-input_file_handle = open(sys.argv[1],'r')
+input_file_handle = open(sys.argv[1],'r') #snp data spreadsheet
 
 ###Order in excel sheet
 #Reference, ST36(pacific), ST631(1G), ST631(2), ST631(1PQ), ST36(atlantic), ST636
