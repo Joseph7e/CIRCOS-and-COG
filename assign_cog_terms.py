@@ -25,8 +25,7 @@ e=3]
         a = re.findall(r"(WP_[0-9]*).[1-9]_", line)[0]
 
     except:
-        okay = 'okay'
-        #print ('hahaha')
+        okay = "this wasn't a protein"
         #continue # this wasn't a protein
 
     l = re.findall(r"locus_tag=(.*)\]??", line)[0].split(']')[0]
